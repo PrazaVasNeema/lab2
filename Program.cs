@@ -3,6 +3,7 @@
         Console.Clear();
         //Console.WriteLine("Hello, world");
 
+        /*
         int i = 2;
         long l;
         byte b;
@@ -46,20 +47,26 @@
             ++i;
         }
         Console.WriteLine("\n");
-
+*/
         // for (/*старт*/;/*условия*/;/*итерация*/)
         // {
         //     continue;
             
         //     break;
         // }
-
+/*
         Console.WriteLine("FOR \n");
         for (i = 0; i <= 5; ++i)
         {
             Console.Write($"{i} ");
         }
         Console.WriteLine("\n");
+
+        
+        foreach (int ia in array)
+        {
+            Console.Write($"{ia} ");
+        }
 
         Console.WriteLine($"short \t{short.MinValue} - {short.MaxValue}");
         Console.WriteLine($"int \t{int.MinValue} - {int.MaxValue}");
@@ -68,5 +75,36 @@
         Console.WriteLine($"double \t{double.MinValue} - {double.MaxValue}");
 
 //        Console.ReadKey(true);
+
+        */
+
+        {
+            int i;
+        }
+        {
+            int i;
+        }
+
+        Print("Hello world");
+
+        // ДЗ
+        int[] array = Calc(new int[] {-3, 0, 2, 4, 5}, 6);
+
+        // var param = Console.ReadLine();
+        // Console.WriteLine(param);
     }
+        static void Print(string message)
+        {
+            Console.WriteLine(message);
+        }
+        static void Print(int message)
+        {
+            Console.WriteLine(message);
+        }
+
+        // ДЗ
+        static int[] Calc(int[] array, int k){
+            return null;
+        }
+        // функция, которая вернет 2 элемента, которые в сумме дают значение k, (сумму 2х элементов в массиве, которая равна к,) при этом она принимате массив другой
 }
